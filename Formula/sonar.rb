@@ -28,6 +28,7 @@ class Sonar < Formula
 
   def install
     bin.install "sonar"
+    bin.install "sonar-tray" if OS.mac? && File.exist?("sonar-tray")
   end
 
   test do
