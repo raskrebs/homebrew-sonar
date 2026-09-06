@@ -1,28 +1,28 @@
 class Sonar < Formula
   desc "CLI tool for monitoring ports and processes"
   homepage "https://github.com/RasKrebs/sonar"
-  version "0.6.2"
+  version "0.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.2/sonar_darwin_arm64.tar.gz"
-      sha256 "18af8bf4ccfa211f79f2fa2d0868ec4ede2b0a836284de48a01fdf2a406c4455"
+      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.3/sonar_darwin_arm64.tar.gz"
+      sha256 "0a59abef81d99154b4a3de5d83cfbedef62bde9b7f9cc435ef7cdce98ab6f566"
     end
     on_intel do
-      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.2/sonar_darwin_amd64.tar.gz"
-      sha256 "1d2e5d6a892af6e1f373cad1112423363bcc5b5ab778c118238e6d156b816f15"
+      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.3/sonar_darwin_amd64.tar.gz"
+      sha256 "fb316dc2e5d5e016b29ba6b9277ff5e33f201bb9b9827107a86dae428a700a18"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.2/sonar_linux_arm64.tar.gz"
-      sha256 "e1292f0f7c2c5d887c4f1248e42e44dea5473129b11a33f1dee7bfac693c2683"
+      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.3/sonar_linux_arm64.tar.gz"
+      sha256 "729d2b259a7a01d84cde2be2d50a2f74be7cff9164a773a8f8f7d15273c8ecd6"
     end
     on_intel do
-      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.2/sonar_linux_amd64.tar.gz"
-      sha256 "aa7a38e3cc4b7668178221828fe34730dde70c7034da5fb6df0d4af9cb74d429"
+      url "https://github.com/RasKrebs/sonar/releases/download/v0.6.3/sonar_linux_amd64.tar.gz"
+      sha256 "f96484da14703ac0d0f034ae37565ebfd6dc4f8c13d5d41ca90fb1504e974922"
     end
   end
 
