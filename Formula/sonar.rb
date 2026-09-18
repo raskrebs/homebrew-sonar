@@ -29,6 +29,8 @@ class Sonar < Formula
   def install
     bin.install "sonar"
     bin.install "sonar-tray" if OS.mac? && File.exist?("sonar-tray")
+
+    generate_completions_from_executable(bin/"sonar", "completion")
   end
 
   test do
